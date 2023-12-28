@@ -1,0 +1,332 @@
+
+/* Ajouter un fond d'écran à l'en-tête */
+header.jumbotron {
+  background-image: url(assets/images/10.jpg);
+  /* Remplacez 'lien_image_background' par le lien de votre image */
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  color: white;
+  /* Pour que le texte soit lisible sur l'image */
+   padding: 400px 0; 
+  /* Ajoute de l'espace intérieur pour le contenu */
+}
+header.jumbotron strong {
+  font-weight: bold;
+}
+
+
+
+/* Supprimer le soulignement des liens */
+.list-unstyled li a {
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+
+/* Position fixe pour l'icône */
+#backToTopIcon {
+  position: fixed;
+  bottom: 20px; /* Ajustez la position verticale selon vos préférences */
+  right: 20px; /* Ajustez la position horizontale selon vos préférences */
+  font-size: 24px; /* Taille de l'icône */
+  cursor: pointer; /* Curseur au survol */
+  z-index: 9999; /* Assurez-vous que l'icône est au-dessus du contenu */
+}
+
+/* Style pour la phrase */
+#backToTopText {
+  position: fixed;
+  bottom: 20px; /* Ajustez la position verticale selon vos préférences */
+  right: 60px; /* Ajustez la position horizontale selon vos préférences */
+  font-size: 14px; /* Taille du texte */
+  color: #000; /* Couleur du texte */
+  z-index: 9999; /* Assurez-vous que le texte est au-dessus du contenu */
+}
+
+
+
+/* Style par défaut */
+.navbar-nav .nav-link {
+transition: background-color 0.3s ease-in-out;
+}
+
+/* Effet de survol */
+.navbar-nav .nav-link:hover {
+background-color: #f0f0f0;
+}
+
+
+
+/* Changement de la couleur des icônes en bleu "info" */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #17a2b8;
+}
+
+/* Changement de la couleur au survol */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #138496;
+}
+
+
+
+/* Style personnalisé pour le formulaire */
+.contact-form {
+font-family: 'Arial', sans-serif;
+background-color: #f8f9fa;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.contact-form label b {
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+}
+
+/* Style pour les icônes Bootstrap */
+.contact-info {
+font-size: 1rem;
+}
+
+.contact-info i {
+font-size: 1.2rem;
+vertical-align: middle;
+margin-right: 10px;
+}
+
+/* Style pour les boutons */
+.custom-btn {
+font-size: 1rem;
+margin-top: 10px;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+background-color: #138496;
+color: #fff;
+}
+
+
+
+/* Style personnalisé pour le footer */
+footer {
+background-color: #343a40;
+color: #fff;
+}
+
+footer h3 {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+footer p {
+font-size: 1rem;
+margin-bottom: 10px;
+}
+
+footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+footer ul li {
+margin-bottom: 5px;
+}
+
+footer a {
+color: #17a2b8;
+text-decoration: none;
+}
+
+/* Style pour les icônes de réseaux sociaux */
+.social-icons i {
+font-size: 1.5rem;
+margin-right: 15px;
+transition: color 0.3s;
+}
+
+.social-icons i:hover {
+color: #138496;
+}
+
+
+
+/* Styles personnalisés */
+#Pourquoi_nous_choisir {
+background-color: #f8f9fa;
+}
+
+#Pourquoi_nous_choisir h2 {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 40px;
+}
+
+.info-card {
+background-color: #fff;
+border: none;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s;
+}
+
+.info-card:hover {
+transform: translateY(-5px);
+}
+
+.info-card h4 {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.info-card p {
+font-size: 1rem;
+}
+
+.info-icon {
+font-size: 2rem;
+margin-bottom: 15px;
+}
+
+
+
+body {
+font-family: "Helvetica Neue", Arial, sans-serif;
+background-color: #f5f5f5;
+}
+
+.content {
+padding: 20px;
+margin: 20px auto;
+border-radius: 5px;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 1rem;
+}
+
+.card-img-top {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+
+
+body {
+font-family: "Helvetica Neue", Arial, sans-serif;
+background-color: #f5f5f5;
+}
+
+.content {
+padding: 20px;
+margin: 20px auto;
+border-radius: 5px;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 1rem;
+}
+
+
+/* Appliquer une taille fixe aux cartes */
+.card {
+width: 350px; /* Ajustez cette valeur selon vos besoins */
+height: 450px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/* Assurer que les images à l'intérieur des cartes ne débordent pas */
+.card-img-top {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  max-height: 100%;
+
+}
+
+/* Centrer le contenu à l'intérieur des cartes */
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+
+/* Ajoutez des styles pour l'effet de survol */
+.card-hover {
+transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+transform: scale(1.05);
+}
+
+.dynamic-col {
+  transition: transform 0.3s, box-shadow 0.3s, border-radius 0.3s;
+  border-radius: 10px; /* Ajoutez des coins arrondis par défaut */
+}
+
+.dynamic-col:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 20px; /* Augmentez les coins arrondis au survol */
+}
+
+.dynamic-section {
+  transition: transform 0.3s, box-shadow 0.3s, border-radius 0.3s;
+  border-radius: 10px; /* Coins arrondis par défaut */
+}
+
+.dynamic-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; /* Coins plus arrondis au survol */
+}
+
+  .content {
+    padding: 10px; /* Espace intérieur du cadre */
+    transition: box-shadow 0.3s ease; /* Animation de transition */
+  }
+
+  .content:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre au survol */
+    transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; /* Coins plus arrondis au survol */
+  transition: transform 0.3s, box-shadow 0.3s, border-radius 0.3s;
+  border-radius: 10px; /* Coins arrondis par défaut */
+  }
+
+/* Styles pour les cards à l'intérieur de la section */
+.custom-card-section .card {
+  /* Ajoutez ici vos styles spécifiques pour les cards */
+  width: 350px;
+  height: 400px;
+
+}
+
+/* Styles pour les images à l'intérieur des cards */
+.custom-card-section .card-img-top {
+  /* Ajoutez ici vos styles spécifiques pour les images */
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  max-height: 100%; /* Pour s'assurer que l'image ne dépasse pas la hauteur de la card */
+}
